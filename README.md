@@ -66,10 +66,10 @@ Pour fonctionner il faut :
 	pi_fm_rds -ps PiRateFM -audio Morse_code.wav -freq 94.3M
 
 ## Réponses des énigmes :
-Cf fichier ENIGMAHACK INSTRUCTIONS.md
+Consulter le fichier ENIGMAHACK INSTRUCTIONS.md 
 
 ## Fonctionnement du serveur de jeu :
-Cf fichier ExplicationBD.pdf
+Consulter les fichiers ExplicationBD.pdf et Explication_Connexion.pdf
 
 
 
