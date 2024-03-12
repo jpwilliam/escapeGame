@@ -41,6 +41,7 @@
 - Enable ssh
 >Il est conseillé de changer le nom d’utilisateur et surtout le mot de passe, mais cela ne concerne pas cet article. De même, je change le nom de la machine en pifm dans les fichiers /etc/hosts et /etc/hostname. Après avoir changé le nom de la machine, c’est plus simple de la rebooter.
 
->Pour préparer l’installation de PiFM, il faut installer le paquet git, le support des codecs audio (sndfile) et les paquets de compilation. Sur la Rasbian Debian lite, le paquet build-essential est déjà installé.
+# - Installation de PiFM
+	apt install build-essential
 	apt install git
-	<pre>apt install libsndfile1-dev</pre>
+	apt install libsndfile1-dev</pre>
