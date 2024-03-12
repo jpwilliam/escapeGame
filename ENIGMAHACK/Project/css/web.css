@@ -1,0 +1,179 @@
+/*------------------------------------------------------------------------------
+	WEB : page design
+------------------------------------------------------------------------------*/
+
+
+
+/*==============================
+	Layout
+==============================*/
+
+/* Body & Wrapper */
+.wrapper {
+	max-width: 1700px;
+	margin: 30px auto;
+	border-style: solid;
+	border-radius: 50px;
+	background-image: url("../design/fond7.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+body {
+	background-color: #000000;
+}
+
+
+
+li
+{
+	color: #FFFFFF;
+	list-style: none;
+	padding: 30px;
+	border-style: none none solid none;
+}
+
+li:hover
+{
+	color: #EDE6E6;
+	margin-left: -10px;
+}
+
+
+a
+{
+	text-decoration: none;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+h2
+{
+	color : #9FE7EF;
+}
+
+section
+{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50px;
+	border-color: #031C64;
+	text-align: justify;
+	font-size: 20px;
+	display: inline-block;
+	width: 1200px;
+	margin: 30px 0px 0px 402px;
+	padding: 0px 30px 30px 30px;
+	background-color: #5372D3;
+}
+
+h1
+{
+	font-size: 80px;
+}
+
+header
+{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 50px;
+	border-color: #031C64;
+	display: inline-block;
+	vertical-align: top;
+	position: sticky;
+	top: 0;
+	height: 150px;
+	width: 1200px;
+	margin: 30px 0px 0px 402px;
+	padding: 0px 40px 30px 30px;
+	background-color: #000000;
+	color: #EDE6E6;
+	text-align: right;
+}
+
+nav
+{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 50px;
+	border-color: #031C64;
+	padding: 5px 7px 5px 0px;
+	margin: 30px 0px 0px 402px;
+	color: #AAAAAA;
+	text-align: right;
+	background-color: #031C64;;
+	width: 1200px;
+}
+
+input
+{
+	background-color: #5372D3;
+	text-align: center;
+	border-style: none;
+	outline: none;
+	font-size: 20px;
+	margin-right: 50px;
+}
+
+
+/*==============================
+	Style
+==============================*/
+
+/* Set font */
+* {
+	font-family: 'Ubuntu Condensed', 'Arial', 'Helvetica', 'Palatino', sans-serif;
+}
+
+/* Body & Wrapper */
+
+
+
+.hide {
+	display: none;
+}
+
+
+
+/*==============================
+	Classes
+==============================*/
+
+
+.errorMsg {
+	display: block;
+	color: red;
+	font-style: italic;
+	text-align: center;
+}
+
+
+
+
+/*==============================
+	Responsive design
+==============================*/
+
+/* Media query : mobile */
+@media (max-width: 600px) {
+
+
+}
+
+
+
+/* Media query : tablet */
+@media (min-width: 600px) and (max-width: 1200px) {
+
+
+}
+
+
+
+/* Media query : laptop */
+@media (min-width: 1200px) {
+
+
+}
