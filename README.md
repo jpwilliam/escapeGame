@@ -9,6 +9,7 @@
  	sudo apt install steghide
 	     
 #### - placer le dossier "escapeGame" dans la racine pour qu'il soit facile d'accés.
+
     
 ### partie web : 
 #### - dépendances : 
@@ -17,3 +18,6 @@
 installer phpmyadmin pour une meilleure gestion de la base de données.
              
 #### - placer le dossier “ENIGMAHACK” dans /var/www/html/ 
+
+
+### partie raspberry pi
