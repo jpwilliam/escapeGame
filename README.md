@@ -1,8 +1,17 @@
 # Escape_Game_College
 
+## Présentation
+Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les cordées de la Réussite. Il a été testé sur plus 50 personnes avec succès. 
+Pour fonctionner il faut :
+- un PC avec un serveur web qui contiendras le dossier "ENIGMAHACK".  Il contient les pages web du jeu. (cf explications plus bas)
+- un outil de gestion de base de données MariadB ou Mysql (cf explications plus bas)
+- recopier sur les postes de chaque ordinateur à disposition des joueurs le dossier "jeux"
+- imprimer si besoin les affiches du jeu (locked.jpg) et les instructions supplémentaires mises sur les tables des joueurs 'explicationsBD.pdf')
+- utiliser un Raspberry PI pour émettre un code MORSE audio sur la bande FM et à écouter via une radio FM ou une clef SDR/ADALM pluto/hack RF et une application telle que "gqrx".(cf explications plus bas)
+
 ## Installation
 
-### Partie programmes :
+### Partie programmes sur les PC des joueurs:
 #### - Dépendances : 
  	# À installer sur toutes les machines des joueurs.
  	sudo apt update
@@ -14,7 +23,7 @@
 #### - Placer le dossier "jeux" dans la racine pour qu'il soit facile d'accés.
 
     
-### Partie web : 
+### Partie web sur le serveur web : 
 #### - Dépendances : 
 	# À installer sur la machine serveur de jeu.
  	sudo apt update && sudo apt upgrade -y
@@ -26,7 +35,7 @@
 #### - Placer le dossier “ENIGMAHACK” dans /var/www/html/ 
 
 
-### Partie raspberry pi
+### Partie Raspberry PI
 # - Configuration initiale du Raspberry PI pour l'enigme code MORSE
 
 >La façon la plus simple d’installer le système sur un raspberry consiste à aller chercher l’image Raspbian packagée par la fondation Raspberry(https://www.raspberrypi.com/software/). Le système ressemble à une Debian assortie de quelques modifications. La procédure est assez bien documentée. Il faut télécharger le fichier zip, le décompresser et le copier sur une carte sd. La carte est insérée dans le Raspberry, un clavier et un écran compatible sont branchés. Ensuite, le système est lancé. À ce stade, le système est en anglais. Le login est pi, le mot de passe raspberry, ou comme le clavier est anglais : raspberry. Pour devenir administrateur, il faut utilser sudo.
@@ -41,7 +50,7 @@
 - Enable ssh
 >Il est conseillé de changer le nom d’utilisateur et surtout le mot de passe, mais cela ne concerne pas cet article. De même, je change le nom de la machine en pifm dans les fichiers /etc/hosts et /etc/hostname. Après avoir changé le nom de la machine, c’est plus simple de la rebooter.
 
-# - Installation de PiFM
+# - Installation de PiFM (https://github.com/ChristopheJacquet/PiFmRds)
 	apt install build-essential
 	apt install git
 	apt install libsndfile1-dev
@@ -51,3 +60,15 @@
 	cd PiFmRds/src
 	make clean
 	make
+# - Installation du fichier son de l'enigme MORSE
+ 	cp Morse_code.wav  ~/PiFmRds/src/
+	pi_fm_rds -ps PiRateFM -audio Morse_code.wav -freq 94.3M
+
+## Réponses des énigmes :
+Cf fichier ENIGMAHACK INSTRUCTIONS.md
+
+## Fonctionnement du serveur de jeu :
+Cf fichier ExplicationBD.pdf
+
+
+
