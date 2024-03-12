@@ -31,6 +31,7 @@
 
 >La façon la plus simple d’installer le système sur un raspberry consiste à aller chercher l’image Raspbian packagée par la fondation Raspberry. Le système ressemble à une Debian assortie de quelques modifications. La procédure est assez bien documentée. Il faut télécharger le fichier zip, le décompresser et le copier sur une carte sd. La carte est insérée dans le Raspberry, un clavier et un écran compatible sont branchés. Ensuite, le système est lancé. À ce stade, le système est en anglais. Le login est pi, le mot de passe raspberry, ou comme le clavier est anglais : raspberry. Pour devenir administrateur, il faut utilser sudo.
 >Ensuite, il faut utiliser la commande sudo raspi-config pour changer quelques paramètres :
+
 `4 : localisation options`
 - changer les locales (pour disposer des paramètres de la France ;
 - la timezone (Europe/Paris)
@@ -42,4 +43,4 @@
 
 >Pour préparer l’installation de PiFM, il faut installer le paquet git, le support des codecs audio (sndfile) et les paquets de compilation. Sur la Rasbian Debian lite, le paquet build-essential est déjà installé.
 	apt install git
-	apt install libsndfile1-dev
+	<pre>apt install libsndfile1-dev</pre>
