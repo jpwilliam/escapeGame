@@ -11,7 +11,7 @@
 	sudo apt install python3
  	sudo apt install steghide
 	     
-#### - Placer le dossier "escapeGame" dans la racine pour qu'il soit facile d'accés.
+#### - Placer le dossier "jeux" dans la racine pour qu'il soit facile d'accés.
 
     
 ### Partie web : 
