@@ -6,6 +6,7 @@
 #### - dépendances : 
 	sudo apt install g++
 	sudo apt install python3
+ 	sudo apt install steghide
 	     
 #### - placer le dossier "escapeGame" dans la racine pour qu'il soit facile d'accés.
     
