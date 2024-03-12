@@ -10,10 +10,10 @@
 	// Data ajax from client
 	if (isset($_POST['data'])) $data = json_decode($_POST['data'], true);
 	$teamName = NULL;
-	if (preg_match(".{1,15}$/", $data['teamName'])) $teamName = $db->real_escape_string($data['teamName']);
+	if (preg_match("/.{1,15}$/", $data['teamName'])) $teamName = $db->real_escape_string($data['teamName']);
 
 	// CHECK : client data
-	if ($teamName == NULL) fail($db, NULL, "Numéro INSEE invalide.");
+	if ($teamName == NULL) fail($db, NULL, "$teamName");
 
 	// Select teamName from tblUsers
 	$query = "SELECT teamName FROM team WHERE teamName ='$teamName';";
