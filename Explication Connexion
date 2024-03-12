@@ -1,0 +1,38 @@
+Escape Game
+
+
+1. Création d'un Nouvel Utilisateur :
+
+Sur la page d'accueil, sélectionnez l'option "Créer un Nouvel Utilisateur".
+Entrez un nom d'équipe sans espaces.
+Indiquez si vous êtes au collège ou au lycée en écrivant "COLLEGE" ou "LYCEE".
+Créez un mot de passe sécurisé composé d'au moins 6 caractères, puis confirmez-le.
+Appuyez sur "OK" deux ou trois fois pour finaliser le processus, puis sur "Retour" pour revenir à la page de connexion.
+
+
+2. Connexion :
+
+Sur la page d'accueil, sélectionnez l'option "Se Connecter".
+Entrez le nom d'équipe et le mot de passe que vous avez précédemment définis lors de la création de votre compte.
+
+
+3. Histoire et Défis :
+
+Une fois connecté, plongez dans une petite histoire captivante qui vous introduira dans le monde mystérieux de l'Escape Game.
+Les défis commencent ensuite. Vous recevrez des instructions et des indices pour vous aider à résoudre chaque énigme.
+Pour valider votre réponse et passer au défi suivant, entrez le "flag" correct ainsi que l'ID du défi.
+
+
+
+
+Note : 
+Veuillez noter que l'Escape Game Linux a été spécialement développé pour fonctionner sur des systèmes d'exploitation Linux. 
+Il est recommandé d'exécuter le jeu sur un environnement Linux pour une expérience optimale.
+Certaines fonctionnalités ou performances pourraient ne pas être disponibles sur d'autres plateformes.
+
+
+
+Remarque : 
+Veuillez noter qu'une période d'inactivité prolongée peut entraîner la désactivation de l'Escape Game. 
+Pour des raisons de sécurité et de gestion des ressources, le jeu peut se fermer automatiquement si aucune action n'est effectuée pendant une durée prolongée.
+Pour continuer à profiter de l'expérience, veuillez vous assurer de rester actif pendant votre session de jeu.
