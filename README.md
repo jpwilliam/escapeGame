@@ -44,4 +44,4 @@
 # - Installation de PiFM
 	apt install build-essential
 	apt install git
-	apt install libsndfile1-dev</pre>
+	apt install libsndfile1-dev
