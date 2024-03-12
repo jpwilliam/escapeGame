@@ -61,7 +61,7 @@ Pour fonctionner il faut :
 	cd PiFmRds/src
 	make clean
 	make
-# - Installation du fichier son de l'enigme MORSE
+# - Installation du fichier son de l'énigme MORSE
  	cp Morse_code.wav  ~/PiFmRds/src/
 	pi_fm_rds -ps PiRateFM -audio Morse_code.wav -freq 94.3M
 
