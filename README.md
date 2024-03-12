@@ -4,6 +4,7 @@
 
 ### Partie programmes :
 #### - Dépendances : 
+	# À installer sur toutes les machines des joueurs.
 	sudo apt install g++
 	sudo apt install python3
  	sudo apt install steghide
@@ -13,6 +14,7 @@
     
 ### Partie web : 
 #### - Dépendances : 
+	# À installer sur la machine serveur de jeu.
 	sudo apt install apache2 php libapache2-mod-php mysql-server php-mysql
 	sudo apt install php-curl php-gd php-intl php-json php-mbstring php-xml php-zip
 #### Installer phpmyadmin pour une meilleure gestion de la base de données.
