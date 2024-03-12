@@ -1,1 +1,41 @@
+Base de données "egnimahack" :
 
+
+Table "vérifierDéfi" :
+
+Cette table stocke les informations cruciales pour vérifier les réponses correctes des défis. 
+Elle comprend les identifiants uniques des défis ainsi que les hachages des flags correspondants, utilisés pour valider les réponses des équipes participantes.
+
+
+Table "ÉQUIPE" :
+
+La table "ÉQUIPE" contient les données essentielles de connexion des équipes participantes. 
+Elle enregistre le nom de chaque équipe, son type (COLLEGE ou LYCEE), ainsi que le hachage sécurisé du mot de passe de l'équipe, garantissant la confidentialité et 
+la sécurité des informations d'identification.
+
+
+Table "indice" :
+
+Cette table centralise tous les indices fournis pour aider les équipes à résoudre les défis. 
+Elle contient l'identifiant unique de chaque défi, son nom, ainsi que l'indice associé à ce défi, permettant aux joueurs de progresser de manière stratégique dans le jeu.
+
+
+Table "ChallengeÉquipe" :
+
+La table "ChallengeÉquipe" recueille les données nécessaires pour déterminer le vainqueur de l'Escape Game. 
+Elle enregistre l'identifiant de chaque équipe participant au défi, l'identifiant du défi spécifique, un indicateur de l'état de progression du défi (terminé ou non), 
+ainsi que les horodatages de début et de fin, permettant de mesurer le temps écoulé pour chaque équipe sur chaque défi. 
+Cette mesure du temps est utilisée pour évaluer la performance des équipes et déterminer le vainqueur final.
+
+
+Cette structure de base de données offre une organisation méthodique et sécurisée des données nécessaires au bon fonctionnement de l'Escape Game "egnimahack".
+Chaque table remplit un rôle spécifique dans la gestion des défis, des équipes participantes et de la détermination du vainqueur, assurant ainsi une expérience 
+de jeu fluide et équitable.
+
+
+
+Note :
+Au départ, la table "ChallengeÉquipe" était utilisée pour afficher les scores des équipes participantes à l'Escape Game.
+Cependant, après une analyse approfondie, il a été déterminé que l'affichage du temps écoulé offrait une mesure plus significative de la performance des équipes. 
+Par conséquent, la table a été modifiée pour enregistrer les temps de début et de fin de chaque défi, permettant ainsi de calculer le temps total passé par chaque équipe 
+sur l'ensemble des défis. Cette mesure du temps est désormais utilisée comme critère principal pour évaluer la progression des équipes et déterminer le vainqueur final.
