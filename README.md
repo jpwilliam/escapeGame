@@ -27,5 +27,4 @@
 
 
 ### Partie raspberry pi
-#alt text](https://lemagduchat.ouest-france.fr/images/dossiers/2023-06/chat-cinema-061213.jpg)
-#![alt text](https://img.freepik.com/photos-gratuite/adorable-chaton-lunettes-soleil_23-2150886404.jpg?t=st=1710251187~exp=1710251787~hmac=cd4715bfccabd59da25eee0af69032bd2039555ffc914a9de834825b40f5be81)
+	#Installer sur la radio affin d'emmetre sur la bande fm en utiliseant le dlogiciel pifm
