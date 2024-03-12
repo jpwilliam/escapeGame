@@ -23,3 +23,4 @@
 
 
 ### Partie raspberry pi
+![alt text](https://lemagduchat.ouest-france.fr/images/dossiers/2023-06/chat-cinema-061213.jpg)
