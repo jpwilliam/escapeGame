@@ -1,7 +1,7 @@
 # Escape_Game_College
 
 ## Présentation
-Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les cordées de la Réussite. Il a été testé sur plus 50 collégiens et lycéens avec succès. Il se compose de 9 énigmes sur PC dont une avec un Raspberry PI qui émet sur la bande FM.
+Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les Cordées de la Réussite. Il a été testé sur plus 50 collégiens et lycéens avec succès. Il se compose de 9 énigmes sur PC dont une avec un Raspberry PI qui émet sur la bande FM.
 
 Pour fonctionner il faut :
 - un PC avec un serveur web qui contient le dossier "ENIGMAHACK".  Il contient les pages web du jeu. (cf explications plus bas)
