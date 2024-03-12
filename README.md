@@ -1,5 +1,7 @@
 # Escape_Game_College
 
+![enigmahck](https://github.com/shadowfr97/escapeGame/assets/163165399/d5aca4b5-52e9-427f-b6c1-c86a6743add0)
+
 ## Présentation
 Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les Cordées de la Réussite. Il a été testé sur plus 50 collégiens et lycéens avec succès. Il se compose de 9 énigmes sur PC dont une avec un Raspberry PI qui émet sur la bande FM.
 
