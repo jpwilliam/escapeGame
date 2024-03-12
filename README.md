@@ -1,12 +1,13 @@
 # Escape_Game_College
 
 ## Présentation
-Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les cordées de la Réussite. Il a été testé sur plus 50 personnes avec succès. 
+Cet escape game a été mis en place par les étudiants de BUT Réseaux et télécoms de 2ème année de l'IUT de Kourou. Il a été créé afin d'accueillir des collégiens et des étudiants lors d'évènements comme la JPO (Journée Portes Ouvertes de l'IUT) et les cordées de la Réussite. Il a été testé sur plus 50 collégiens et lycéens avec succès.
+
 Pour fonctionner il faut :
-- un PC avec un serveur web qui contiendras le dossier "ENIGMAHACK".  Il contient les pages web du jeu. (cf explications plus bas)
+- un PC avec un serveur web qui contient le dossier "ENIGMAHACK".  Il contient les pages web du jeu. (cf explications plus bas)
 - un outil de gestion de base de données MariadB ou Mysql (cf explications plus bas)
 - recopier sur les postes de chaque ordinateur à disposition des joueurs le dossier "jeux"
-- imprimer si besoin les affiches du jeu (locked.jpg) et les instructions supplémentaires mises sur les tables des joueurs 'explicationsBD.pdf')
+- imprimer si besoin les affiches du jeu 'locked.jpg' et les instructions supplémentaires mises sur les tables des joueurs 'annexes.pdf'
 - utiliser un Raspberry PI pour émettre un code MORSE audio sur la bande FM et à écouter via une radio FM ou une clef SDR/ADALM pluto/hack RF et une application telle que "gqrx".(cf explications plus bas)
 
 ## Installation
@@ -36,7 +37,7 @@ Pour fonctionner il faut :
 
 
 ### Partie Raspberry PI
-# - Configuration initiale du Raspberry PI pour l'enigme code MORSE
+# - Configuration initiale du Raspberry PI pour l'énigme code MORSE
 
 >La façon la plus simple d’installer le système sur un raspberry consiste à aller chercher l’image Raspbian packagée par la fondation Raspberry(https://www.raspberrypi.com/software/). Le système ressemble à une Debian assortie de quelques modifications. La procédure est assez bien documentée. Il faut télécharger le fichier zip, le décompresser et le copier sur une carte sd. La carte est insérée dans le Raspberry, un clavier et un écran compatible sont branchés. Ensuite, le système est lancé. À ce stade, le système est en anglais. Le login est pi, le mot de passe raspberry, ou comme le clavier est anglais : raspberry. Pour devenir administrateur, il faut utilser sudo.
 >Ensuite, il faut utiliser la commande sudo raspi-config pour changer quelques paramètres :
