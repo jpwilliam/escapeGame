@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 .pendu2.py
+python3 .pendu.py
