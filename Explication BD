@@ -33,6 +33,7 @@ Chaque table remplit un rôle spécifique dans la gestion des défis, des équip
 de jeu fluide et équitable.
 
 
+
 Note :
 Au départ, la table "ChallengeÉquipe" était utilisée pour afficher les scores des équipes participantes à l'Escape Game.
 Cependant, après une analyse approfondie, il a été déterminé que l'affichage du temps écoulé offrait une mesure plus significative de la performance des équipes. 
