@@ -1,26 +1,26 @@
-Base de données "enigmahack" :
+## Base de données "enigmahack"
 
 
-Table "vérifierDéfi" :
+### Table "vérifierDéfi" :
 
 Cette table stocke les informations cruciales pour vérifier les réponses correctes des défis. 
 Elle comprend les identifiants uniques des défis ainsi que les hachages des flags correspondants, utilisés pour valider les réponses des équipes participantes.
 
 
-Table "ÉQUIPE" :
+### Table "ÉQUIPE" :
 
 La table "ÉQUIPE" contient les données essentielles de connexion des équipes participantes. 
 Elle enregistre le nom de chaque équipe, son type (COLLEGE ou LYCEE), ainsi que le hachage sécurisé du mot de passe de l'équipe, garantissant la confidentialité et 
 la sécurité des informations d'identification.
 
 
-Table "indice" :
+### Table "indice" :
 
 Cette table centralise tous les indices fournis pour aider les équipes à résoudre les défis. 
 Elle contient l'identifiant unique de chaque défi, son nom, ainsi que l'indice associé à ce défi, permettant aux joueurs de progresser de manière stratégique dans le jeu.
 
 
-Table "ChallengeÉquipe" :
+### Table "ChallengeÉquipe" :
 
 La table "ChallengeÉquipe" recueille les données nécessaires pour déterminer le vainqueur de l'Escape Game. 
 Elle enregistre l'identifiant de chaque équipe participant au défi, l'identifiant du défi spécifique, un indicateur de l'état de progression du défi (terminé ou non), 
